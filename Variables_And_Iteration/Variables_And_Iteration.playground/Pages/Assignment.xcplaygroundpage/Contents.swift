@@ -8,7 +8,7 @@
 //:
 //: Remember to commit and push your work often.
 //:
-//: ![commit](commit.png "Commit")
+//: ![commit_menu](commit_menu.png "Commit")
 //:
 //: ## Required code
 //: The following two statements are required to make the playground run. Please do not remove.
