@@ -1,4 +1,4 @@
-//: [Previous](@previous) / [Next](@next)
+//: [Previous](@previous)
 //: # Assignment
 //: Return to the plans you made at the start of this course for an image that used elements of repetition.
 //:
