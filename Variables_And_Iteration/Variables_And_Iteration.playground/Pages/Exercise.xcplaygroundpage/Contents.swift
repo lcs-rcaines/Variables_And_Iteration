@@ -39,6 +39,11 @@ let canvas = Canvas(width: 500, height: 500)
 for x in stride(from: 0, through: 400, by: 100){
     for y in stride(from: 0, through: 400, by: 200){
         canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 50, height: 100)
+        for x in stride(from: 50, through: 500, by: 100){
+            for y in stride(from: 100, through: 500, by: 200){
+                canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 50, height: 100)
+            }
+        }
     }
 }
 /*:
