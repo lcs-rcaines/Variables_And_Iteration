@@ -13,17 +13,34 @@
 import Cocoa
 import PlaygroundSupport
 
-// Create canvas
-let canvas = Canvas(width: 300, height: 300)
-
 //: ## Add your code below
-//draw Circles
-for x in stride(from: 0, through: 300, by: 30)  {
-    for y in stride(from: 0, to: 300, by: 30)  {
-        canvas.drawEllipse(centreX: x, centreY: y, width: 2, height: 2)
-    }
-}
+// Create canvas
 
+let canvas = Canvas(width: 500, height: 500)
+
+//canvas.drawShapesWithFill = false
+//
+//for x in stride(from: 50, through: 450, by: 100){
+//
+//    for y in stride(from: 450, through: 50, by: -100){
+//
+//        for size in stride(from: 100, through: 20, by: -20){
+//
+//            canvas.drawRectangle(centreX: x, centreY: y, width: size, height: size)
+//
+//        }
+//
+//    }
+//
+//}
+
+//canvas.drawShapes with fill
+
+for x in stride(from: 0, through: 400, by: 100){
+    
+    canvas.drawRectangle(bottomLeftX: x, bottomLeftY: 0, width: 50, height: 100)
+    
+}
 
 /*:
  ## Template code
