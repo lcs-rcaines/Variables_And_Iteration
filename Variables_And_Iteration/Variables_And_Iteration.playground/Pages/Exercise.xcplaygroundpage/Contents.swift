@@ -37,11 +37,10 @@ let canvas = Canvas(width: 500, height: 500)
 //canvas.drawShapes with fill
 
 for x in stride(from: 0, through: 400, by: 100){
-    
-    canvas.drawRectangle(bottomLeftX: x, bottomLeftY: 0, width: 50, height: 100)
-    
+    for y in stride(from: 0, through: 400, by: 200){
+        canvas.drawRectangle(bottomLeftX: x, bottomLeftY: y, width: 50, height: 100)
+    }
 }
-
 /*:
  ## Template code
  The code below is necessary to see results in the Assistant Editor at right. Please do not remove.
